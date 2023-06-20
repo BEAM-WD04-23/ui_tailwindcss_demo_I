@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Tailwind mediaquery</title>
+</head>
+<body>
+    <div class="w-11/12 h-auto bg-red-300 border-4 border-gray-700 border-double flex flex-col items-center">
+        <!-- 3 -->
+     <h1 class="text-3xl">Main Text</h1>
+    
+     <!-- 4 , md:flex ... is mediaquery, means apply this style: flex-col only on medium and up(larege) screens-->
+    
+    <!-- mdeium & up make it flex else flex-col (means for small screens it will be flex-col)  -->
+           <!-- 2 one -->
+    <div class="w-11/12 h-3/6 md:flex justify-evenly">
+                <!-- 5 -->
+                <div class="w-11/12 h-80 border-2 border-black p-3">Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Voluptatibus, ad consequatur nam id totam reprehenderit quod 
+                    aspernatur culpa eveniet inventore?
+                    </div>
+                <img src="https://images.unsplash.com/photo-1687120486460-a12217b24b92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" class="w-11/12 h-80 border-2 p-3 border-black overflow-hidden bg-cover"/>
+                <div class="w-11/12 h-80 border-2 border-black p-3">
+                    Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Voluptatibus, ad consequatur nam id totam reprehenderit quod 
+                    aspernatur culpa eveniet inventore?
+                </div>
+            </div>
+    
+    </div> 
+</body>
+</html>
